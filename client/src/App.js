@@ -10,7 +10,7 @@ function App() {
   const [title, setTitle] = useState('');
   const [description, setDescription] = useState('');
 
-  const API_URL = 'http://localhost:4000/lessons';
+  const API_URL = 'https://telegram-mini-app-91yr.onrender.com/lessons';
 
   // Загружаем уроки при старте
   useEffect(() => {
